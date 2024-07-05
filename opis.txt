@@ -1,1 +1,14 @@
 OPIS:
+1. Program ma liczyć statystyki koszyka zakupów w sklepie.
+2. W wersji najprostszej to: średnia zawartość koszyka, najmniejsza i najwieksza wartość
+ koszyka, ilość koszyków w ciagu dnia( równoznaczna praktycznie z ilością klientów),
+ suma koszyków -> utarg dzienny.
+3. Zakładam, że dane wprowadza kasjer, który jest określony np. imieniem i nazwiskiem, lub loginem.
+4. Statystyki chciałbym również wyliczać z podziałem na dni tygodnia, gdzie wykorzystałbym do tego Enum'y.
+
+KOMENTARZ:
+Pomysł wydaje mi się koncepcyjnie podobny do tego, który wykonywaliśmy w trakcie kursu.
+Wg mnie może byc podstawą do późniejszego rozbudowania np.wprowadzenie pozycji w koszyku,
+podziału okresów czasowych na inne niż dni tygodnia, żeby wg nich liczyc statystyki.
+Pytanie, czy wg Was ten pomysł jest do przyjęcia ?
+
