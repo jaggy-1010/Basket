@@ -1,14 +1,20 @@
 OPIS:
-1. Program ma liczyć statystyki koszyka zakupów w sklepie.
-2. W wersji najprostszej to: średnia zawartość koszyka, najmniejsza i najwieksza wartość
- koszyka, ilość koszyków w ciagu dnia( równoznaczna praktycznie z ilością klientów),
- suma koszyków -> utarg dzienny.
-3. Zakładam, że dane wprowadza kasjer, który jest określony np. imieniem i nazwiskiem, lub loginem.
-4. Statystyki chciałbym również wyliczać z podziałem na dni tygodnia, gdzie wykorzystałbym do tego Enum'y.
+1. Program ma liczyć statystyki koszyków zakupowych w sklepie:
+    a) Ilość koszyków w zadanym okresie -> Count,
+    b) Sumę wartośći koszyków w okresie -> Sum,
+    c) Najmniejszą wartość koszyka w okresie -> Min,
+    d) Największą wartość koszyka w okresie -> Max,
+    e) Średnią wartość koszyka w okresie -> Average,
+    f) Ewentualnie poziomy sprzedaży trade levels -> patrz Param.cs
+    g) 'Zadane okresy' wymienione w 1 a) to dzień, miesiąc, rok oraz "całość" czyli statystyki z wszystkich koszyków.
+    h) Ewentualnie można liczyć statystyki dla poszczególnych kasjerów.
+2. Zakładam, że dane wprowadza kasjer, który jest określony loginem.
+3. Zakładam, że będzie proste menu.
 
-KOMENTARZ:
-Pomysł wydaje mi się koncepcyjnie podobny do tego, który wykonywaliśmy w trakcie kursu.
-Wg mnie może byc podstawą do późniejszego rozbudowania np.wprowadzenie pozycji w koszyku,
-podziału okresów czasowych na inne niż dni tygodnia, żeby wg nich liczyc statystyki.
+UWAGI:
+Po uwadze Zuzi, "a jak policzysz liczbę koszyków w ciągu dnia ? gdzie to zrobisz?", pomyślałem, że
+zrezygnuję z dziennych statystyk. Jednak nie dawało mi to spokoju i zacząłem szukać w sieci, przede wszystkim w dokumentacji Microsoftu.
+wydaje mi się, że znalazłem rozwiązanie. Oczywiście, bardzo dużo jeszcze brakuje(walidacje, delegaty, eventy, dzidziczenie, przeciażenia , testy.....).
+pusta jest też klasa BasketInMemory. Na początku zależało mi na rozwiązaniu problemu statystyk koszyka za dany okres(np za jeden dzień)
+tak by wykorzystać te tematy, które były poruszone na kursie (jak widać to z czego skorzystałem to przede wszystkim metody Substring i Split klasy string).
 Pytanie, czy wg Was ten pomysł jest do przyjęcia ?
-
