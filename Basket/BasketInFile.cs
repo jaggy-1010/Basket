@@ -190,8 +190,8 @@ public class BasketInFile // : BasketBase
                     var dateOnly = date.Substring(0, 10);
                     if (dateOnly == input)
                     {
-                        var dateInDayOnlyFormat = DateOnly.Parse(dateOnly);
-                        var day = dateInDayOnlyFormat.Day;
+                        // var dateInDayOnlyFormat = DateOnly.Parse(dateOnly);
+                        // var day = dateInDayOnlyFormat.Day;
                         var itemStringValue = results[3];
                         var itemValue = double.Parse(itemStringValue);
                         statistics.AddItemValue(itemValue);
