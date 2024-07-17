@@ -12,9 +12,11 @@ OPIS:
 3. Zakładam, że będzie proste menu.
 
 UWAGI:
-Po uwadze Zuzi, "a jak policzysz liczbę koszyków w ciągu dnia ? gdzie to zrobisz?", pomyślałem, że
-zrezygnuję z dziennych statystyk. Jednak nie dawało mi to spokoju i zacząłem szukać w sieci, przede wszystkim w dokumentacji Microsoftu.
-wydaje mi się, że znalazłem rozwiązanie. Oczywiście, bardzo dużo jeszcze brakuje(walidacje, delegaty, eventy, dzidziczenie, przeciażenia , testy.....).
-pusta jest też klasa BasketInMemory. Na początku zależało mi na rozwiązaniu problemu statystyk koszyka za dany okres(np za jeden dzień)
-tak by wykorzystać te tematy, które były poruszone na kursie (jak widać to z czego skorzystałem to przede wszystkim metody Substring i Split klasy string).
+Po uwadze Zuzi, "a jak policzysz liczbę koszyków w ciągu dnia ? gdzie to zrobisz?", pomyślałem, że zrezygnuję z dziennych statystyk.
+Jednak nie dawało mi to spokoju i zacząłem szukać w sieci, przede wszystkim w dokumentacji Microsoftu.
+Wydaje mi się, że znalazłem rozwiązanie. Oczywiście, bardzo dużo jeszcze brakuje (walidacje, delegaty, eventy,
+dzidziczenie, przeciążenia, testy.....), pusta jest też klasa BasketInMemory, wydaje mi się, że klasa Tools jest do likwidacji.
+Na początku zależało mi na rozwiązaniu problemu statystyk koszyka za dany okres(np za jeden dzień) w taki sposób by wykorzystać te tematy,
+które były poruszone na kursie (jak widać to z czego skorzystałem to przede wszystkim metody Substring i Split klasy String).
+
 Pytanie, czy wg Was ten pomysł jest do przyjęcia ?
